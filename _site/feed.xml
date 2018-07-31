@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/project/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/project/" rel="alternate" type="text/html" /><updated>2018-07-31T08:26:26-04:00</updated><id>http://localhost:4000/project/</id><title type="html">The Noodle Bar</title><subtitle>Just a guy learning to code, one over ambitiious project at a time.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/project/jekyll/update/2018/07/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-07-20T08:50:54-04:00</published><updated>2018-07-20T08:50:54-04:00</updated><id>http://localhost:4000/project/jekyll/update/2018/07/20/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/project/jekyll/update/2018/07/20/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/project/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/project/" rel="alternate" type="text/html" /><updated>2018-07-31T09:14:10-04:00</updated><id>http://localhost:4000/project/</id><title type="html">The Noodle Bar</title><subtitle>Just a guy learning to code, one over ambitiious project at a time.</subtitle><entry><title type="html">Getting Started with Blogging</title><link href="http://localhost:4000/project/web/development/2018/07/25/Getting-started-with-blogging.html" rel="alternate" type="text/html" title="Getting Started with Blogging" /><published>2018-07-25T08:55:30-04:00</published><updated>2018-07-25T08:55:30-04:00</updated><id>http://localhost:4000/project/web/development/2018/07/25/Getting-started-with-blogging</id><content type="html" xml:base="http://localhost:4000/project/web/development/2018/07/25/Getting-started-with-blogging.html">&lt;h1 id=&quot;learning-to-build-a-blog-with-jekyll&quot;&gt;Learning to build a blog with Jekyll&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://thumbs.gfycat.com/AptFirstHartebeest-size_restricted.gif&quot; alt=&quot;Pusheen is a blogger&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Recently, I’ve begun my journey to coding competence by starting a coding bootcamp with the Flatiron School in Immersive Web-Development. As part of our course, the instructors want us to build a blog showcasing what we have learned or whatever coding nonsense enters our mind and just wont leave.&lt;/p&gt;
+
+&lt;p&gt;But I’ve never blogged before, hell I don’t think I’ve even followed a blog before. Ironically, the only times I have ever lookled at blogs was to find answers to coding problems I might have had on my own.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-am-i-doing&quot;&gt;What am I doing?&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thumbs.gfycat.com/GoldenChiefAmericanbittern-size_restricted.gif&quot; alt=&quot;confused spongyboi&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To be honest I’ve no idea. I just wanted to make sure that whatever I made I wantd to own and not be hosted somewhere else. I wanted to make sure if somone wanted to see my blog they didn’t got to tumblr.com or medium.com, I wanted them to go to TylerNodell.com, or sometehing along those lines. But, I had no idea of what I was getting myself into.&lt;/p&gt;
+
+&lt;h1 id=&quot;jekyll-blogging&quot;&gt;Jekyll blogging&lt;/h1&gt;
+
+&lt;p&gt;I had no idea what Jekyll was going into this endevor. All I was looking to do was to figure out a way to avoid tumblr or medium. When looking at a list of options I had for myself, Jekyll seemed like a simple way to implement what I was looking for: a small simple server dedicated to doing one thing, blogging.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-even-is-jekyll&quot;&gt;What even is Jekyll?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thumbs.gfycat.com/UnfinishedThankfulDikdik-size_restricted.gif&quot; alt=&quot;Jekyll and hyde&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll is a static site generator primarily purposed for blogging, meanining it makes a website for you that has the layout of a basic blog. By default it looks much like any blog you can find on medium or tumblr, the magic of Jekyll is that it gives you the freedom of access to the CSS and Javascript files of your blog allowing the user to truely have control of how it looks.&lt;/p&gt;
+
+&lt;p&gt;Jekyll creates its posts using the markdown file format, giving the users a wide varieties of tools in order to format their posts. Then the posts are shelled using Liquid, a open-source template programmed in Ruby.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use-jekyll&quot;&gt;How to use Jekyll&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/en/f/fa/Stack_Overflow_homepage%2C_Feb_2017.png&quot; alt=&quot;stackoverflow&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;or&quot;&gt;or&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thumbs.gfycat.com/SoreDecimalKatydid-size_restricted.gif&quot; alt=&quot;reddit&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll is simple to start working with but, becomes more difficult depending upon the feature set you desire. For my project I just wanted to start out with a simple base site and work on expanding it in the future. To start with create a repository and cd into it as such.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git init &amp;lt;Repository name&amp;gt; &amp;amp;&amp;amp; cd &amp;lt;Repository name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Next we need to set up a Gemfile as the are ruby gems, we can do so by creating a new file and giving it our dependencies.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source &quot;https://rubygems.org&quot;
+
+gem &quot;jekyll&quot;, &quot;~&amp;gt; 3.7.3&quot;
+
+gem &quot;minima&quot;, &quot;~&amp;gt; 2.0&quot;
+
+gem &quot;github-pages&quot;, group: :jekyll_plugins
+
+group :jekyll_plugins do
+  gem &quot;jekyll-feed&quot;, &quot;~&amp;gt; 0.6&quot;
+end
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;After that hop back into terminal and use &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; to load them all in.&lt;/p&gt;
+
+&lt;p&gt;Now its time to push everything up to github for basic hosting. Simply add everything into the repository you created then commit and push it.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add * -f
+
+git commit -m &quot;Initial commit&quot;
+
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;At this point you can load up your site locally on &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost:4000&lt;/code&gt; to get a feel for what you will see online.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thumbs.gfycat.com/GraciousShyKid-size_restricted.gif&quot; alt=&quot;congrats&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Congrats your site is basically up and running, you can start making posts in your posts folder, just be sure to use proper naming conventions.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-configure-jekyll&quot;&gt;How to configure Jekyll&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thumbs.gfycat.com/BiodegradableFloweryGreatdane-size_restricted.gif&quot; alt=&quot;Code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By accessing the &lt;code class=&quot;highlighter-rouge&quot;&gt;config.yml&lt;/code&gt; file the user gains access to the general settings offered my Jekyll.&lt;/p&gt;
+
+&lt;p&gt;From here they gain access to:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Blog title&lt;/li&gt;
+  &lt;li&gt;Contact information&lt;/li&gt;
+  &lt;li&gt;Description&lt;/li&gt;
+  &lt;li&gt;Base url a.k.a. the subpath of your site&lt;/li&gt;
+  &lt;li&gt;Hostname and protocols&lt;/li&gt;
+  &lt;li&gt;Social media handles&lt;/li&gt;
+  &lt;li&gt;Markdown style&lt;/li&gt;
+  &lt;li&gt;Jekyll themes&lt;/li&gt;
+  &lt;li&gt;Additional plugins&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In addition, everything can be manually edited via the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; files or the &lt;code class=&quot;highlighter-rouge&quot;&gt;main.css&lt;/code&gt; file in the site directory.&lt;/p&gt;
+
+&lt;p&gt;That pretty much sums up Jekyll set up from this point on it is completely up to the user to see what they can do to make a simple website into a blog of their dreams.&lt;/p&gt;
+
+&lt;p&gt;Below I’ve linked, from Jekyll’s main site, pages with additional information on themes and plugins.&lt;/p&gt;
+
+&lt;p&gt;https://jekyllrb.com/docs/themes/&lt;/p&gt;
+
+&lt;p&gt;https://jekyllrb.com/docs/plugins/&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thumbs.gfycat.com/BitterMetallicCommongonolek-size_restricted.gif&quot; alt=&quot;good luck&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Learning to build a blog with Jekyll</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/project/jekyll/update/2018/07/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-07-20T08:50:54-04:00</published><updated>2018-07-20T08:50:54-04:00</updated><id>http://localhost:4000/project/jekyll/update/2018/07/20/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/project/jekyll/update/2018/07/20/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
