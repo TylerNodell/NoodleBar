@@ -17,7 +17,7 @@ title: The Noodle Bar
 email: Tyler.L.Nodell@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Just a guy learning to code, one over ambitiious project at a time.
-baseurl: "/project" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tylernodell.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lazynoodles
 github_username:  TylerNodell
